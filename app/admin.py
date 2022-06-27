@@ -1,7 +1,7 @@
 """
 Admin Routes
 """
-from flask import Blueprint, render_template #, session
+from flask import Blueprint, render_template, session
 
 admin_bp = Blueprint('admin', __name__, url_prefix='/admin')
 
@@ -11,3 +11,7 @@ def admin_dashboard():
     admin_username = 'ylynfatt' #session['username']
 
     return render_template('admin/dashboard.html', username=admin_username)
+
+@admin_bp.route('/users')
+def admin_users():
+    return 'test'
