@@ -9,4 +9,4 @@ load_dotenv()
 
 class Config():
     """ Config class which will contain all configuration variables for application """
-    SECRET_KEY=os.environ.get('SECRET_KEY')
+    SECRET_KEY=os.environ.get('SECRET_KEY', 'someS3cr37key')
