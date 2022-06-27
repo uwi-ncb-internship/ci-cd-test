@@ -1,3 +1,6 @@
+"""
+Testing Main Blueprint
+"""
 import pytest
 
 def test_index(client, app):

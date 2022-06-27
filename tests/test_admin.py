@@ -1,3 +1,7 @@
+"""
+Testing Admin Blueprint
+"""
+
 import pytest
 
 def test_admin_dashboard(client, app):

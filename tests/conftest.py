@@ -1,10 +1,13 @@
+"""
+Test Fixtures
+"""
+
 import pytest
 import os
 from app import create_app
 
 @pytest.fixture
-def app():
-
+def testapp():
     app = create_app()
 
     yield app
