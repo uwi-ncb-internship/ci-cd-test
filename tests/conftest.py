@@ -1,5 +1,7 @@
 """
 Test Fixtures
+This serves as a means of providing fixtures for an entire directory
+or suite of tests
 """
 
 # import os
