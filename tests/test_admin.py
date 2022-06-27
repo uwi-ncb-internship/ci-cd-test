@@ -4,7 +4,7 @@ Testing Admin Blueprint
 
 # import pytest
 
-def test_admin_dashboard(client, app):
+def test_admin_dashboard(client):
     """Test that we can load the admin dashboard."""
     response = client.get('/admin/')
     assert response.status_code == 200
