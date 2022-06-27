@@ -5,4 +5,6 @@ import pytest
 
 def test_index(client, app):
     """Test that we can load the index page."""
-    assert client.get('/').status_code == 200
+    response = client.get('/')
+    assert response.status_code == 200
+    assert b'Main Website' in response.data
