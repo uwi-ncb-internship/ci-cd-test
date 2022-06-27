@@ -1,7 +1,7 @@
 """
 Admin Routes
 """
-from flask import Blueprint, render_template, session, url_for
+from flask import Blueprint, render_template #, session
 
 admin_bp = Blueprint('admin', __name__, url_prefix='/admin')
 
