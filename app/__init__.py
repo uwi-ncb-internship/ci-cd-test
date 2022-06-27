@@ -10,7 +10,7 @@ from .admin import admin_bp
 def create_app():
     """Initialize Flask application"""
     app = Flask(__name__)
-    app.logger.info('Application started')
+    app.logger.debug('Application started')
     app.config.from_object(Config)
 
 
