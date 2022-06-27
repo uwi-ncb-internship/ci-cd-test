@@ -2,7 +2,7 @@
 Testing Admin Blueprint
 """
 
-import pytest
+# import pytest
 
 def test_admin_dashboard(client, app):
     """Test that we can load the admin dashboard."""
