@@ -17,6 +17,6 @@ def about():
     return 'About this application'
 
 @main_bp.route('/contact')
-def about():
+def contact():
     """Contact page route."""
     return 'Contact Page'
