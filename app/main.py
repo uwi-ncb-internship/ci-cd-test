@@ -15,3 +15,8 @@ def index():
 def about():
     """About page route."""
     return 'About this application'
+
+@main_bp.route('/contact')
+def about():
+    """Contact page route."""
+    return 'Contact Page'
