@@ -10,3 +10,7 @@ def index():
     """Main application route."""
     session['username'] = 'ylynfatt'
     return render_template('main/index.html')
+
+@main_bp.route('/about')
+def about():
+    return 'About this application'
