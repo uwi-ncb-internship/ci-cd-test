@@ -14,4 +14,5 @@ def admin_dashboard():
 
 @admin_bp.route('/users')
 def admin_users():
+    """Admin users route."""
     return 'test'
