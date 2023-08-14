@@ -13,4 +13,5 @@ def index():
 
 @main_bp.route('/about')
 def about():
+    """About page route."""
     return 'About this application'
